@@ -2,7 +2,6 @@ import numpy as np
 import streamlit as st
 from PIL import Image
 from tensorflow.keras.applications.resnet50 import ResNet50, preprocess_input
-from tensorflow.keras.preprocessing import image as keras_image
 from tensorflow.keras.models import Model
 from sklearn.metrics.pairwise import cosine_similarity
 import cv2
@@ -70,3 +69,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
